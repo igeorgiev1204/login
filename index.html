@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sign_up">
+        <form>
+            <h1>Sign Up</h1>
+            <p>It's quick and easy</p>
+            <hr>
+            <input type="text" name="fname" id="fname" placeholder="First name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last name" required>
+            <input type="text" name="email" id="email" placeholder="Mobile number or email" required>
+            <input type="password" name="password" id="password" placeholder="New password" required>
+            <div class="date_of_birth">
+                <span style="font-size: 18px;">Birthday</span><br>
+                <select name="DoBmonth" id="month">
+                    <option> Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="November">November</option>
+                </select>
+                <select name="DoBday" id="day">
+                <option> Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="11">11</option>
+                </select>
+                <select name="DoBYear" id="year">
+                    <option> Year</option>
+                    <option value="1990">1990</option>
+                    <option value="1995">1995</option>
+                    <option value="2020">2020</option>
+                </select>
+                <span style="font-size: 18px;">Gender</span><br>
+                <span class="gender" data-type="radio" data-name="gender_wrapper" id="u_e_o">
+                <span class="gender1">
+                    <label class="female" for="female">Female</label>
+                    <input type="radio" name="gender" value="female" id="female">
+                </span>
+                <span class="gender1">
+                    <label class="male" for="male">Male</label>
+                    <input type="radio" name="gender" value="male" id="male">
+                </span>
+                <span class="gender1">
+                    <label class="custom" for="custom">Custom</label>
+                    <input type="radio" name="gender" value="custom" id="custom">
+                </span>
+            </span>
+                
+                <p class="terms">By clicking Sign Up, you agree to our <a href="/legal/terms/update" id="terms-link" target="_blank" rel="nofollow">Terms</a>. Learn how we collect, use and share your data in our <a href="/about/privacy/update" id="privacy-link" target="_blank" rel="nofollow">Data Policy</a> and how we use cookies and similar technology in our <a href="/policies/cookies/" id="cookie-use-link" target="_blank" rel="nofollow">Cookies Policy</a>. You may receive SMS Notifications from us and can opt out any time.</p>
+                <button type="submit" class="submit" name="websubmit" id="sign_up">Sign Up</button>       
+            </div>
+
+        </form>
+    </div>
+    
+</body>
+</html>
